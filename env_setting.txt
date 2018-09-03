@@ -1,0 +1,35 @@
+{
+    "window.zoomLevel": 1,
+    "phpfmt.enable_auto_align": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Anonymous Pro for Powerline,Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "terminal.external.osxExec": "iTerm.app",
+    "files.trimTrailingWhitespace": false,
+    "workbench.colorTheme": "Monokai",
+    "php-docblocker.extra": [
+        "@author Jet.lin",
+    ],
+    "php.memoryLimit": "-1",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "workbench.editor.enablePreview": false,
+    "gitlens.keymap": "alternate",
+    "search.useIgnoreFiles": false,
+    "prettier.tabWidth": 4,
+    "explorer.confirmDragAndDrop": false,
+    "bracketPairColorizer.showVerticalScopeLine": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": true
+    },
+    "gitlens.codeLens.enabled": false,
+    "diffEditor.renderSideBySide": false,
+    "workbench.editor.showTabs": true,
+    "diffEditor.ignoreTrimWhitespace": false
+}

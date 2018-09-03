@@ -1,0 +1,56 @@
+// 將您的按鍵組合放入此檔案中以覆寫預設值
+[
+    {
+        "key": "cmd+y",
+        "command": "redo",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+z",
+        "command": "-redo",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "extension.transpose",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "extension.expandToLine",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+F3",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    // {
+    //     "key": "shift+cmd+l",
+    //     "command": "extension.splitIntoLines",
+    //     "when": "editorFocus"
+    // },
+    {
+        "key": "cmd+j",
+        "command": "extension.joinLines",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.gotoSymbol",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "HookyQR.beautify",
+        "when": "editorFocus"
+    }
+]
